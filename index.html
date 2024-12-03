@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<!-- Form number 1 -->
+<section id="pomier" class="section-form-mum-1 contact-form-color__yellow">
+  <div class="contact-form-container contact-form-color__yellow contact-form-container__margin">
+    <h2 class="contact-form-container__title">UMÓW SIĘ NA BEZPŁATNY POMIAR I WYCENĘ!</h2>
+
+    <form id="form1" class="contact-form contact-form-color contact-form-color__yellow" action="#" method="POST">
+        <label class="contact-form__label" for="name1">Imię:</label>
+        <input class="contact-form__input" type="text" id="name1" name="name" required placeholder="np. Jan Kowalski">
+        <label class="contact-form__label" for="phone1">Telefon:</label>
+        <input class="contact-form__input" type="tel" id="phone1" name="phone" placeholder="+48 00000000">
+        <label class="contact-form__label" for="message1">Jaki sufit chcesz?</label>
+        <textarea class="contact-form__textarea contact-form__textarea__size" id="message1" name="message" placeholder="Sufit..."></textarea>
+        <button type="submit" class="contact-form__button">Wysłać</button>
+    </form>
+  </div>
+</section>
+
+<!-- Form number 2 -->
+<section id="quatation" class="contact-form-container-form">
+  <div class="next-section-form contact-form-container">
+    <h2 class="contact-form-container__title">Wyceń sufit napinany</h2>
+    <form id="form2" class="contact-form contact-form-color" action="#" method="POST">
+        <label class="contact-form__label" for="name2">Imię:</label>
+        <input class="contact-form__input" type="text" id="name2" name="name" required placeholder="np. Jan Kowalski">
+        <label class="contact-form__label" for="phone2">Telefon:</label>
+        <input class="contact-form__input" type="tel" id="phone2" name="phone" placeholder="+48 00000000">
+        <label class="contact-form__label" for="sufit2">Jaki sufit chcesz?</label>
+        <input class="contact-form__input" type="text" id="sufit2" name="sufit">
+        <label class="contact-form__label" for="size2">Powierzchnia pokoju (m²)</label>
+        <input class="contact-form__input" type="text" id="size2" name="size" placeholder="m²">
+        <label class="contact-form__label" for="metr2">Metry bieżące (m/b)</label>
+        <input class="contact-form__input" type="text" id="metr2" name="metr" placeholder="m/b">
+        <label class="contact-form__label" for="punkt2">Ilość punktów oświetlenia</label>
+        <input class="contact-form__input" type="text" id="punkt2" name="punkt" placeholder="">
+        <button type="submit" class="contact-form__button">Wysłać</button>
+    </form>
+  </div>
+</section>
+
+<!-- Form number 3 -->
+<section id="supports" class="contact-form-container-form">
+  <div class="contact-form-container">
+    <h2 class="contact-form-container__title">Masz dodatkowe pytania?</h2>
+    <form id="form3" class="contact-form contact-form-color" action="#" method="POST">
+        <label class="contact-form__label" for="name3">Imię i nazwisko *</label>
+        <input class="contact-form__input" type="text" id="name3" name="name" placeholder="np. Jan Kowalski" required>
+        <label class="contact-form__label">Typ klienta</label>
+        <div class="client-type-options">
+            <label class="client-type-options__label"><input type="radio" name="client-type3" value="osoba prywatna"> osoba prywatna</label>
+            <label class="client-type-options__label"><input type="radio" name="client-type3" value="prywatny inwestor"> prywatny inwestor</label>
+            <label class="client-type-options__label"><input type="radio" name="client-type3" value="właściciel firmy"> właściciel firmy</label>
+            <label class="client-type-options__label"><input type="radio" name="client-type3" value="projektant wnętrz"> projektant wnętrz</label>
+            <label class="client-type-options__label"><input type="radio" name="client-type3" value="ekipa budowlana"> ekipa budowlana</label>
+        </div>
+        <label class="contact-form__label" for="email3">Email *</label>
+        <input class="contact-form__input" type="email" id="email3" name="email" placeholder="np. przyklad@adres.pl" required>
+        <label class="contact-form__label" for="phone3">Telefon</label>
+        <input class="contact-form__input" type="tel" id="phone3" name="phone" placeholder="+48">
+        <label class="contact-form__label" for="message3">Treść wiadomości</label>
+        <textarea class="contact-form__textarea" id="message3" name="message" placeholder="tutaj wprowadź treść wiadomości"></textarea>
+        <button type="submit" class="contact-form__button">Wyślij</button>
+    </form>
+  </div>
+</section>
+<!-- jjsjspokof -->
+
+<!-- <script type="module" src="./script.js"></script>
+<script type="module" src="./form-handler.js"></script> -->
+<!-- <script src="/script.js"></script> -->
+<script type="module" src="./script.js"></script> 
+ <!-- <script src="./script.js"></script> -->
+</body>
+</html>
