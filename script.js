@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const data = Object.fromEntries(formData.entries());
 
       try {
-        const response = await fetch('https://server-tau-plum.vercel.app', {
+        const response = await fetch('https://server-git-master-dzmitrys-projects-ea7c9cec.vercel.app/api/sendToTelegram', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
